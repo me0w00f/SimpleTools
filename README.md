@@ -3,10 +3,15 @@
 
 
 
-# `lohin.py`
+# `AttackWebForm.py`
 
 用来爆破四位数字密码的 GET 表单。
 
-# `generatepass.py`
+# `g4pass.py` 、 `g5pass.py` 、 `g6pass.py`
 
-生成数字密码。
+生成纯数字密码。
+
+
+# `base64deocde.py`
+
+base64 字符串解码
