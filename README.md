@@ -22,7 +22,7 @@ base64 字符串解码
 ```shell
 python2 serveit.py 端口
 ```
-或可以在你的用户终端个性化配置文件(比如`~/.bashrc`或`~/.zshrc`)中输入
+或可以在你的用户终端个性化配置文件(比如`~/.bashrc`或`~/.zshrc`)中写入
 ```shell
 alias web="python2 /path/to/file/serveit.py"
 ```
