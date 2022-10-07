@@ -62,3 +62,9 @@ sudo yum install gum
 ```shell
 sh msf.sh 
 ```
+
+## 使用方法
+```shell
+#举个栗子
+java -jar AXMLPrinter2.jar AndroidManifest.xml
+```
