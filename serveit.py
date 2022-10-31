@@ -13,7 +13,7 @@ class MyHTTPRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         self.send_header("Expires", "0")
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(prog='web',description='Serve a no-cache web service in current directory')
+    parser = argparse.ArgumentParser(prog='python3 serveit.py',description='Serve a no-cache web service in current directory')
     parser.add_argument('port', help='port you want the web server to run on')
     args = parser.parse_args()
     SimpleHTTPServer.test(HandlerClass=MyHTTPRequestHandler)
