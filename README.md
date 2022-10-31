@@ -70,3 +70,18 @@ sh msf.sh
 #举个栗子
 java -jar AXMLPrinter2.jar AndroidManifest.xml
 ```
+
+# `Batch域名归属查询.py`
+批量域名归属查询
+## 使用方法
+从鹰图平台上申请自己的apikey,并放进脚本
+```python
+apikey="你的apikey"
+```
+新建一个`input.txt`
+把你想要搜索的域名一行一个放进去
+然后运行脚本即可
+```shell
+python3 Batch域名归属查询.py
+```
+结果会放在`result.txt`里
