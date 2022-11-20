@@ -85,3 +85,17 @@ apikey="你的apikey"
 python3 Batch域名归属查询.py
 ```
 结果会放在`result.txt`里
+
+# `portscan.sh`
+批量端口扫描  
+## 安装依赖
+```shell
+sudo apt install masscan
+sudo apt install nmap
+```
+## 使用方法
+在脚本同一目录中创建一个目标文件，一行一个目标ip   
+然后
+```shell
+sudo sh portscan.sh
+```
